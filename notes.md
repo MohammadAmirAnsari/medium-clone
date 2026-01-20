@@ -1,7 +1,14 @@
-<!-- https://youtu.be/MG1kt_wiIz0?t=4002 -->
+<!-- https://youtu.be/MG1kt_wiIz0
+?t=4002 -->
 
 composer require laravel/installer
 <!-- installs laravel -->
+
+composer require laravel/breeze
+<!-- installs breeze  -->
+
+php artisan breeze:install
+<!-- merge code with laravel -->
 
 laravel new medium-clone
 <!-- create new project -->
@@ -36,3 +43,10 @@ php artisan db:seed --class=UserSeeder
 
 php artisan db:seed 
 <!-- seed main DatabaseSeeder.php to db -->
+
+php artisan config:clear
+php artisan cache:clear
+<!-- cache clear  -->
+
+php artisan key:generate
+<!-- generate APP_KEY in .env -->
