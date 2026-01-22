@@ -8,7 +8,7 @@
 <div class="flex w-4/5 mx-auto justify-center space-x-2 bg-gray-800 p-4 border border-gray-500/50 rounded-md text-md">
     <div class="flex items-center">
         <input type="radio" name="options" id="html" class="hidden peer">
-        <label for="html" class="cursor-pointer rounded py-2 px-8 text-white transition-colors duration-200 peer-checked:bg-indigo-600 peer-checked:text-white">All</label>
+        <label for="html" class="cursor-pointer rounded py-2 px-8 text-white transition-colors duration-200 peer-checked:bg-gray-600 peer-checked:text-white">All</label>
     </div>
     @foreach ($categories as $category)
 

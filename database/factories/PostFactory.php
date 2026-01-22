@@ -25,7 +25,7 @@ class PostFactory extends Factory
             'content' => fake()->paragraph(),
             'image' => fake()->imageUrl(),
             'category_id' => Category::inRandomOrder()->first()->id,
-            'user_id' =>1,
+            'user_id' => 1,
             'published_at' => fake()->optional()->dateTime()
         ];
     }
